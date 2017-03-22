@@ -1,0 +1,17 @@
+{
+  "name": "project-close-api",
+  "version": "1.0.0",
+  "description": "Data feed for the project-close app",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro",
+    "deploy": "now -e API_KEY=@typeform-api-key"
+  },
+  "author": "John Lombardo <john@meerkats.com.au>",
+  "license": "MIT",
+  "dependencies": {
+    "micro": "^7.2.1",
+    "micro-api": "^0.1.1",
+    "node-fetch": "^1.6.3"
+  }
+}
