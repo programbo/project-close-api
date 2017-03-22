@@ -16,12 +16,12 @@ const fetchData = async ({ params: { formId } }) => {
 module.exports = microApi([
   {
     method: 'get',
-    path: '/forms',
+    path: '/api/forms',
     handler: fetchData
   },
   {
     method: 'get',
-    path: '/forms/:formId',
+    path: '/api/forms/:formId',
     handler: fetchData
   }
 ]);
